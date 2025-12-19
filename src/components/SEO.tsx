@@ -23,7 +23,7 @@ export function SEO({
   description = defaultMeta.description,
   keywords = defaultMeta.keywords,
   canonicalUrl,
-  ogImage = '/amanmahto.jpeg',
+  ogImage = 'https://amanmahto.vercel.app/amanmahto.jpeg?v=1',
   ogType = 'website',
   author = defaultMeta.author,
   publishedTime,
