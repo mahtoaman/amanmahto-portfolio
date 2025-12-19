@@ -23,7 +23,7 @@ export function SEO({
   description = defaultMeta.description,
   keywords = defaultMeta.keywords,
   canonicalUrl,
-  ogImage = '/og-image.png',
+  ogImage = '/amanmahto.jpeg',
   ogType = 'website',
   author = defaultMeta.author,
   publishedTime,

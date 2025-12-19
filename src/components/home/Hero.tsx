@@ -61,7 +61,7 @@ export const Hero = () => {
                 {/* Main Image Placeholder - Replace with user image */}
                 <div className="w-full h-full rounded-full bg-gradient-to-b from-blue-100 to-white border-4 border-white shadow-2xl flex items-end justify-center overflow-hidden">
                     <img 
-                        src="https://avatars.githubusercontent.com/u/61381501?v=4" 
+                        src="/amanmahto-hero.jpg" 
                         alt="Aman Mahto" 
                         className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     /> 

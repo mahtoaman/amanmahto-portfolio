@@ -70,11 +70,11 @@ export const ServicesSection = () => {
           {services.map((service, index) => (
             <Card 
                 key={index} 
-                className="bg-white border-none shadow-lg hover:shadow-2xl transition-all duration-300 group overflow-visible relative flex flex-col items-center text-center p-6 h-full w-full md:w-[calc(50%-2rem)] lg:w-[calc(25%-2rem)]"
+                className="bg-white border-none shadow-lg hover:shadow-2xl transition-all duration-300 group overflow-visible relative flex flex-col items-center text-center p-6 w-[280px] h-[340px]"
                 style={{ animationDelay: service.delay }}
             >
               {/* Floating Image Container */}
-              <div className="relative w-full aspect-square mb-6 group-hover:-translate-y-4 transition-transform duration-500 ease-in-out">
+              <div className="relative w-40 h-40 mb-4 group-hover:-translate-y-4 transition-transform duration-500 ease-in-out shrink-0">
                   {/* Shadow Element for Floating Effect */}
                   <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-3/4 h-4 bg-black/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   
@@ -85,13 +85,13 @@ export const ServicesSection = () => {
                   />
               </div>
 
-              <CardHeader className="p-0 mb-2">
+              <CardHeader className="p-0 mb-2 shrink-0">
                 <CardTitle className="text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
                     {service.title}
                 </CardTitle>
               </CardHeader>
-              <CardContent className="p-0">
-                <CardDescription className="text-slate-600 leading-relaxed group-hover:text-slate-700 transition-colors text-sm">
+              <CardContent className="p-0 grow">
+                <CardDescription className="text-slate-600 leading-relaxed group-hover:text-slate-700 transition-colors text-sm line-clamp-3">
                   {service.description}
                 </CardDescription>
               </CardContent>

@@ -121,7 +121,7 @@ export const CollaborationSection = () => {
 
         {/* CTA Button */}
         <div className="text-center mt-8 relative z-10">
-            <Button asChild size="lg" className="h-14 px-8 rounded-full bg-[#f43f5e] hover:bg-[#e11d48] text-white shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 border-none">
+            <Button asChild size="lg" className="h-14 px-8 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 border-none">
                 <Link to="/contact">
                     Connect With Me For More Details <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
