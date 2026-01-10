@@ -19,7 +19,7 @@ export const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
             <span className="text-2xl font-bold text-slate-900 font-display tracking-tight">
-                Aman<span className="text-blue-600">.Dev</span>
+                Aman<span className="text-blue-600"> Mahto</span>
             </span>
         </Link>
 

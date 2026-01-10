@@ -11,16 +11,16 @@ export const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
           {/* Text Content */}
-          <div className="space-y-8 animate-fade-in-up">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-600 font-medium text-sm">
+          <div className="space-y-8 animate-fade-in-up text-center lg:text-left pt-10 lg:pt-0">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-600 font-medium text-sm mx-auto lg:mx-0">
               <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
               </span>
               Available for Freelance Projects
             </div>
             
-            <h1 className="text-5xl md:text-6xl font-bold text-slate-900 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight">
               Hello Mate <span className="inline-block animate-wave origin-[70%_70%]">👋</span>
               <br />
               I'm Aman Mahto
@@ -33,25 +33,25 @@ export const Hero = () => {
               </span>
             </h1>
             
-            <p className="text-lg text-slate-600 max-w-xl leading-relaxed">
+            <p className="text-base md:text-lg text-slate-600 max-w-xl leading-relaxed mx-auto lg:mx-0">
               I help brands turn their ideas into high-quality digital products. 
               Specializing in building modern, responsive, and user-friendly websites that drive results.
             </p>
             
-            <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 h-14 px-8 text-lg shadow-lg hover:shadow-blue-500/30 transition-all duration-300">
-                Book a Call <ArrowRight className="ml-2 h-5 w-5" />
+            <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 h-12 px-8 text-sm md:h-14 md:px-8 md:text-lg shadow-lg hover:shadow-blue-500/30 transition-all duration-300">
+                Book a Call <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
               </Button>
               
-              <Button size="lg" variant="outline" className="h-14 px-8 text-lg border-slate-200 text-slate-700 hover:bg-slate-50">
-                Download CV <Download className="ml-2 h-5 w-5" />
+              <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white h-12 px-8 text-sm md:h-14 md:px-8 md:text-lg shadow-lg hover:shadow-slate-900/20 transition-all duration-300">
+                Download CV <Download className="ml-2 h-4 w-4 md:h-5 md:w-5" />
               </Button>
             </div>
 
-            <div className="pt-8 flex items-center gap-6 text-slate-400">
-                <a href="#" className="hover:text-blue-600 transition-colors"><Github className="h-6 w-6" /></a>
-                <a href="#" className="hover:text-blue-600 transition-colors"><Linkedin className="h-6 w-6" /></a>
-                <a href="#" className="hover:text-blue-600 transition-colors"><Mail className="h-6 w-6" /></a>
+            <div className="pt-8 flex items-center gap-6 text-slate-400 justify-center lg:justify-start">
+                <a href="https://github.com/mahtoaman" className="hover:text-blue-600 transition-colors"><Github className="h-6 w-6" /></a>
+                <a href="https://linkedin.com/in/amanmahto" className="hover:text-blue-600 transition-colors"><Linkedin className="h-6 w-6" /></a>
+                <a href="mailto:amankrm3@gmail.com" className="hover:text-blue-600 transition-colors"><Mail className="h-6 w-6" /></a>
             </div>
           </div>
 
